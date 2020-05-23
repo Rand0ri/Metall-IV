@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Металлопрокат</title>
-    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon.ico" />
     <!-- main.css -->
     <link rel="stylesheet" href="main.css" />
     <!-- google fonts -->
@@ -21,8 +21,10 @@
     <header>
       <nav>
         <div class="nav-container">
-         
-          <i class="fas fa-industry fa-2x fa-border" style="color: #ad343e"></i>
+          <i
+            class="fas fa-industry fa-2x fa-border"
+            style="color: #ad343e;"
+          ></i>
           <h3 class="logo-text">METALL&IV</h3>
           <div class="btn">
             <div class="bar"></div>
@@ -31,11 +33,11 @@
           </div>
         </div>
         <ul>
-          <li><a href="#services" >Наши услуги</a></li>
-          <li><a href="#projects" >Изготовление металлоизделий</a></li>
-          <li><a href="#about" >О компании</a></li>
-         
-          <li><a href="#contact" >Контакты</a></li>
+          <li><a href="#services">Наши услуги</a></li>
+          <li><a href="#projects">Изготовление металлоизделий</a></li>
+          <li><a href="#about">О компании</a></li>
+
+          <li><a href="#contact">Контакты</a></li>
         </ul>
       </nav>
       <div class="banner">
@@ -104,7 +106,7 @@
 
     <!-- end of services -->
     <!-- projects -->
-    <section id="projects" >
+    <section id="projects">
       <!-- title -->
       <div class="title">
         <h2>Изготовление металлоизделий</h2>
@@ -169,19 +171,35 @@
 
     <!-- end of filler section -->
     <!-- contact -->
+
     <section id="contact">
-      <article class="contact-card">
-        <form>
-          <h3>Обратная связь</h3>
-          <input type="text" id="name" placeholder="Ваше имя " />
-          <input type="email" id="name" placeholder="Ваш e-mail " />
-          <textarea
-            name="comment"
-            id=""
-            cols="30"
-            rows="10"
-            placeholder="Сообщение"
-          ></textarea>
+      <article class="contact-card" class="container">
+        <form action="" id="form" class="form">
+          <h2>Обратная связь</h2>
+          <div class="form-control">
+            <label for="username">Введите Ваше имя</label>
+            <input type="text" id="username" placeholder="Ваше имя" />
+            <small>Ошибка</small>
+          </div>
+          <div class="form-control">
+            <label for="email">Введите Вашу почту</label>
+            <input type="email" id="email" placeholder="Ваша почта" />
+            <small>Ошибка</small>
+          </div>
+          <div class="form-control">
+            <label for="password">Введите Ваш пароль </label>
+            <input type="password" id="password" placeholder="Ваш пароль" />
+            <small>Ошибка</small>
+          </div>
+          <div class="form-control">
+            <label for="password2">Подтвердите пароль</label>
+            <input
+              type="password"
+              id="password2"
+              placeholder="Подтвердите пароль"
+            />
+            <small>Ошибка</small>
+          </div>
           <button type="submit" class="form-btn">Отправить</button>
         </form>
       </article>
@@ -191,11 +209,11 @@
     <!-- footer  -->
     <footer>
       <div class="footer-icons">
-          <a href="#"><i class="fas fa-phone-square"></i></a>
-          <a href="#"><i class="far fa-envelope"></i></a>
-          <a href="#"><i class="fas fa-map-marker-alt"></i></a>
+        <a href="#"><i class="fas fa-phone-square"></i></a>
+        <a href="#"><i class="far fa-envelope"></i></a>
+        <a href="#"><i class="fas fa-map-marker-alt"></i></a>
       </div>
-      <p>&copy;METALLIV 2019</p>
+      <p>&copy;METALLIV 2020</p>
     </footer>
     <!-- end of footer  -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
